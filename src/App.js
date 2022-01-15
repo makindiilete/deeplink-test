@@ -9,14 +9,12 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+     <button className={"btn btn-primary btn-lg"} onClick={() => {
+       window.location = "cashbox://group/356"
+       setTimeout(() => {
+         window.location = "http://onelink.to/5pubw4"
+       }, 500)
+     }} >View Clique</button>
       </header>
     </div>
   );
